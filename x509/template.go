@@ -1,4 +1,4 @@
-package main
+package x509
 
 import (
 	"crypto/rand"
