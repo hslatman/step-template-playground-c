@@ -2,18 +2,13 @@ module github.com/hslatman/step-template-playground-a
 
 go 1.19
 
-require (
-	github.com/smallstep/certinfo v1.10.0
-	go.step.sm/crypto v0.23.1
-)
+require go.step.sm/crypto v0.23.1
 
 require (
 	filippo.io/edwards25519 v1.0.0 // indirect
 	github.com/Masterminds/goutils v1.1.1 // indirect
 	github.com/Masterminds/semver/v3 v3.1.1 // indirect
 	github.com/Masterminds/sprig/v3 v3.2.2 // indirect
-	github.com/go-logr/logr v1.2.0 // indirect
-	github.com/google/certificate-transparency-go v1.1.4 // indirect
 	github.com/google/uuid v1.3.0 // indirect
 	github.com/huandu/xstrings v1.3.2 // indirect
 	github.com/imdario/mergo v0.3.12 // indirect
@@ -26,5 +21,4 @@ require (
 	golang.org/x/net v0.1.0 // indirect
 	golang.org/x/sys v0.1.0 // indirect
 	golang.org/x/text v0.4.0 // indirect
-	k8s.io/klog/v2 v2.80.1 // indirect
 )

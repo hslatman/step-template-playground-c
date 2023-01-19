@@ -13,16 +13,8 @@ github.com/Masterminds/semver/v3
 github.com/Masterminds/sprig/v3
 # github.com/go-logr/logr v1.2.0
 ## explicit; go 1.16
-github.com/go-logr/logr
 # github.com/google/certificate-transparency-go v1.1.4
 ## explicit; go 1.17
-github.com/google/certificate-transparency-go
-github.com/google/certificate-transparency-go/asn1
-github.com/google/certificate-transparency-go/gossip/minimal/x509ext
-github.com/google/certificate-transparency-go/tls
-github.com/google/certificate-transparency-go/x509
-github.com/google/certificate-transparency-go/x509/pkix
-github.com/google/certificate-transparency-go/x509util
 # github.com/google/uuid v1.3.0
 ## explicit
 github.com/google/uuid
@@ -46,7 +38,6 @@ github.com/pkg/errors
 github.com/shopspring/decimal
 # github.com/smallstep/certinfo v1.10.0
 ## explicit; go 1.18
-github.com/smallstep/certinfo
 # github.com/spf13/cast v1.4.1
 ## explicit
 github.com/spf13/cast
@@ -67,8 +58,6 @@ go.step.sm/crypto/x509util
 golang.org/x/crypto/bcrypt
 golang.org/x/crypto/blowfish
 golang.org/x/crypto/chacha20
-golang.org/x/crypto/cryptobyte
-golang.org/x/crypto/cryptobyte/asn1
 golang.org/x/crypto/curve25519
 golang.org/x/crypto/curve25519/internal/field
 golang.org/x/crypto/ed25519
@@ -93,9 +82,3 @@ golang.org/x/text/unicode/bidi
 golang.org/x/text/unicode/norm
 # k8s.io/klog/v2 v2.80.1
 ## explicit; go 1.13
-k8s.io/klog/v2
-k8s.io/klog/v2/internal/buffer
-k8s.io/klog/v2/internal/clock
-k8s.io/klog/v2/internal/dbg
-k8s.io/klog/v2/internal/serialize
-k8s.io/klog/v2/internal/severity

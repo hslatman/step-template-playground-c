@@ -5,12 +5,9 @@ import (
 	"crypto/x509"
 	"crypto/x509/pkix"
 	"errors"
-	"fmt"
 
 	"go.step.sm/crypto/keyutil"
 	"go.step.sm/crypto/minica"
-
-	"github.com/smallstep/certinfo"
 )
 
 func Execute(template string, commonName string) (*x509.Certificate, error) {
@@ -59,13 +56,13 @@ func Execute(template string, commonName string) (*x509.Certificate, error) {
 	return c, nil
 }
 
-func Print(c *x509.Certificate) error {
-	txt, err := certinfo.CertificateText(c)
-	if err != nil {
-		return err
-	}
+// func Print(c *x509.Certificate) error {
+// 	txt, err := certinfo.CertificateText(c)
+// 	if err != nil {
+// 		return err
+// 	}
 
-	fmt.Println(txt)
+// 	fmt.Println(txt)
 
-	return nil
-}
+// 	return nil
+// }
