@@ -1,4 +1,4 @@
-module github.com/hslatman/step-template-playground-a
+module github.com/hslatman/step-template-playground-b
 
 go 1.19
 
